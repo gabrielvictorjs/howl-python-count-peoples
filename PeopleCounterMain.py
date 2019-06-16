@@ -72,7 +72,7 @@ if __name__ == "__main__":
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
-        cv2.putText(frame, "In: {}".format(str(textIn)), (10, 50),
+        cv2.putText(frame, "Entrou: {}".format(str(textIn)), (10, 50),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
 		#cv2.putText(frame, "Out: {}".format(str(textOut)), (10, 70),
 		#cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
