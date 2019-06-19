@@ -16,7 +16,7 @@ def testIntersectionIn(y_rec, y_blueline):
 
 
 if __name__ == "__main__":
-    camera = cv2.VideoCapture("principal.wmv")
+    camera = cv2.VideoCapture("camerasuperior.wmv")
 
     width = int(camera.get(cv2.CAP_PROP_FRAME_WIDTH))
     height = int(camera.get(cv2.CAP_PROP_FRAME_HEIGHT))
